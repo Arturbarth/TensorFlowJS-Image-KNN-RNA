@@ -110,7 +110,7 @@ function classificar() {
 	classesNomes = [... new Set(Y)];
 
 	const resultado =
-		`CLASSIFICADO como <b><span class='text-danger'>${className.toUpperCase()}</span></b>`;
+		`<b><span class='text-white'>CLASSIFICADO como </span></b><b><span class='text-danger'>${className.toUpperCase()}</span></b>`;
 	$('#resultado').html(resultado);
 }
 
